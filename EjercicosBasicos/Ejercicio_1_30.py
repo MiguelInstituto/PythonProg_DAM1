@@ -7,12 +7,12 @@
 #   Escribe "Ingresa el total de la serie: "
 #   Lee total_serie
 #
-#   Si incremento <= 0 O total_serie <= 0, entonces:
+#   Si incremento <= 0 o total_serie <= 0, entonces
 #       Escribir "Error: Tanto el incremento como el total deben ser mayores que cero."
 #   Sino entonces
 #       serie = [str(inicio)]
 #       mientras inicio + incremento <= total_serie:
-#           inicio += incremento
+#           inicio = inicio + incremento
 #           serie.append(str(inicio))
 #       Escribe (f"SERIE => {'..'.join(serie)}")
 # Fin
