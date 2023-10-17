@@ -3,8 +3,9 @@
 
 #print("La temperatura es de", gfahrenheit, "°F")
 
-def gfahrenheit(gcelsius):
+def gfahrenheit():
+    gcelsius = float(input("Temperatura en grados celsius: "))
     return (gcelsius * 9 / 5) + 32
 
-gcelsius = float(input("Temperatura en grados celsius: "))
-print(f"La temperatura es de {gfahrenheit(gcelsius)} °F")
+
+print(f"La temperatura es de {gfahrenheit()} °F")
